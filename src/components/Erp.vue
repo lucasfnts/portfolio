@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden bg-white pt-16 pb-32">
+  <div class="relative overflow-hidden bg-white dark:bg-slate-800 pt-16 pb-32">
     <div class="relative">
       <div
         class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
@@ -8,31 +8,37 @@
           class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
         >
           <div>
-            <div class="mt-6 text-gray-500">
-              <h2 class="text-lg font-semibold text-indigo-600">Full-Stack</h2>
+            <div class="mt-6 text-gray-500 dark:text-slate-400">
+              <h2
+                class="text-lg font-semibold text-indigo-700 dark:text-indigo-400"
+              >
+                Full-Stack
+              </h2>
 
-              <h2 class="text-3xl font-bold tracking-tight text-gray-900">
+              <h2
+                class="text-3xl font-bold tracking-tight text-gray-900 dark:text-slate-200"
+              >
                 E.R.P sur mesure
               </h2>
-              <p class="mt-4 text-lg text-left">
+              <p class="mt-4 text-lg text-left dark:text-slate-400">
                 J'ai mis en place un E.R.P pour un entreprise du secteur BTP
                 afin de :
               </p>
-              <ul class="list-disc text-left pl-4">
+              <ul class="list-disc text-left pl-4 dark:text-slate-400">
                 <li>Gérer des comptes clients</li>
                 <li>Créer des devis & factures</li>
                 <li>Suivre des chantiers</li>
               </ul>
-              <p class="mt-4 text-lg text-justify">
+              <p class="mt-4 text-lg text-justify dark:text-slate-400">
                 L'E.R.P est une Application Web lié à une base de données SQL
                 via une API.
               </p>
               <h3
-                class="text-xl font-bold tracking-tight text-gray-900 py-4 text-left"
+                class="text-xl font-bold tracking-tight text-gray-900 py-4 text-left dark:text-slate-200"
               >
                 Fonctionnalités détaillées
               </h3>
-              <ul class="list-disc text-left pl-4">
+              <ul class="list-disc text-left pl-4 dark:text-slate-400">
                 <li>Authentification sécurisée</li>
                 <li>Formulaires de suivi dynamiques</li>
                 <li>Gestion de rôle</li>
@@ -61,8 +67,10 @@
           class="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0"
         >
           <div>
-            <div class="mt-6">
-              <h3 class="text-xl font-bold tracking-tight text-gray-900">
+            <div class="mt-6 dark:text-slate-400">
+              <h3
+                class="text-xl font-bold tracking-tight text-gray-900 dark:text-slate-200"
+              >
                 <em>Stack</em>
               </h3>
               <p class="mt-4 text-lg text-gray-500">

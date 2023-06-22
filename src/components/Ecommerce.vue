@@ -1,21 +1,29 @@
 <template>
-  <div class="relative overflow-hidden bg-white pt-12 sm:pt-32 lg:pt-20">
+  <div
+    class="relative overflow-hidden dark:bg-slate-800 bg-white pt-12 sm:pt-32 lg:pt-20"
+  >
     <div
       class="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8"
     >
       <div>
-        <h2 class="text-lg font-semibold text-indigo-600">Front-End</h2>
+        <h2 class="text-lg font-semibold text-indigo-600 dark:text-indigo-400">
+          Front-End
+        </h2>
         <p
-          class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+          class="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-slate-200 sm:text-4xl"
         >
           Site E-Commerce
         </p>
-        <p class="mx-auto mt-5 max-w-prose text-xl text-gray-600">
+        <p
+          class="mx-auto mt-5 max-w-prose text-xl text-gray-600 dark:text-slate-400"
+        >
           J'ai mis en place un site E-Commerce pour un Salon de Tatouage &
           Piercing.<br />
           La prestation comprends:
         </p>
-        <ul class="list-disc py-3 text-start lg:ml-80 sm:px-px">
+        <ul
+          class="list-disc py-3 text-start lg:ml-80 sm:px-px dark:text-slate-400"
+        >
           <li>L'achat du nom de domaine</li>
           <li>L'hébergement et sa configuration</li>
           <li>
@@ -36,8 +44,10 @@
             class="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0"
           >
             <div>
-              <div class="mt-6">
-                <h3 class="text-xl font-bold tracking-tight text-gray-900">
+              <div class="mt-6 dark:text-slate-400">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-slate-200"
+                >
                   <em>Stack</em>
                 </h3>
                 <p class="mt-4 text-lg text-gray-500">
