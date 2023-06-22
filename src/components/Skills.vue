@@ -1,9 +1,11 @@
 <template>
-  <div class="relative bg-indigo-700 py-24 sm:py-32 lg:py-40">
+  <div class="relative bg-indigo-700 dark:bg-slate-800 py-24 sm:py-32 lg:py-40">
     <div
       class="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8"
     >
-      <h2 class="text-lg font-semibold text-black">SKILLS</h2>
+      <h2 class="text-lg font-semibold dark:text-indigo-400 text-black">
+        SKILLS
+      </h2>
       <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
         Voici l'ensemble de mes compétences
       </p>
@@ -13,11 +15,13 @@
       <div class="mt-20">
         <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
           <div v-for="feature in features" :key="feature.name" class="pt-6">
-            <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+            <div
+              class="flow-root rounded-lg dark:bg-slate-400 bg-gray-50 px-6 pb-8"
+            >
               <div class="-mt-6">
                 <div>
                   <span
-                    class="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg"
+                    class="inline-flex items-center justify-center rounded-xl bg-indigo-500 dark:bg-slate-600 p-3 shadow-lg"
                   >
                     <component
                       :is="feature.icon"
@@ -73,8 +77,7 @@ const features = [
   },
   {
     name: "RGPD",
-    description:
-      "Audit & mise en conformité RGPD pour les PME, DPO externe. Certification AFNOR en cours.",
+    description: "Audit & mise en conformité RGPD pour les PME, DPO externe.",
     icon: ShieldCheckIcon,
   },
   {
